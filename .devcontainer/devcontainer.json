@@ -1,4 +1,12 @@
 {
     "name": "DevOps devcontainer",
-    "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye"
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Prisma.prisma"
+            ]
+        }
+    }
 }
