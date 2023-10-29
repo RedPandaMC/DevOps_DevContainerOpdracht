@@ -1,12 +1,10 @@
 {
-    "name": "DevOps devcontainer",
-    "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
-
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "Prisma.prisma"
-            ]
-        }
-    }
+	"name": "DevOps",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/prisma:2": {}
+	},
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
 }
+
