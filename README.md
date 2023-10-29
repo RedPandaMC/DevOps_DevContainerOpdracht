@@ -36,3 +36,5 @@ Meer informatie:
 
 Prisma komt met een data beheer dashboard. Om te raadplegen, open een terminal en voer volgend command uit:
 > ```npx prisma studio```
+
+### IT WORKS!!!

@@ -1,4 +1,3 @@
-
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
@@ -7,7 +6,7 @@ async function main() {
     await prisma.blog.create({
         data: {
             title: "My first blog",
-            body: "This is my first blog post",
+            body: "This is my first blog post"
         }
     })
 }

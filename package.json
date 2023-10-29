@@ -1,0 +1,12 @@
+{
+  "name": "devcontainers",
+  "version": "1.0.0",
+  "description": "Deze repository bevat een eenvoudige webserver in Express geschreven. De webserver maakt een connectie naar een Postgres databank via het Prisma ORM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
